@@ -1,24 +1,30 @@
-# README
+# Simple Blog
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A simple blog application built with Ruby on Rails. This application allows users to create, read, update, and delete blog posts.
 
-Things you may want to cover:
+## Features
 
-* Ruby version
+- Create new blog posts with titles and body content.
+- View a list of all blog posts.
+- Edit existing blog posts.
+- Delete blog posts.
 
-* System dependencies
+## Technologies Used
 
-* Configuration
+- **Ruby on Rails**: Version 7.2.1.1
+- **Database**: SQLite3 (default database for development)
+- **Web Server**: Puma
+- **Frontend**: HTML, CSS
+- **Additional Gems**:
+  - `turbo-rails`: For seamless page transitions and updates.
+  - `sass-rails`: For writing CSS in SASS.
 
-* Database creation
+## Installation
 
-* Database initialization
+Follow these steps to set up the application locally:
 
-* How to run the test suite
+1. **Clone the repository**:
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+   ```bash
+   git clone https://github.com/Kubomu/TryingRuby.git
+   cd simple_blog
