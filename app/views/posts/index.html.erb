@@ -1,0 +1,13 @@
+<header>
+  <h1>Blog Posts</h1>
+  <%= link_to 'New Post', new_post_path, class: 'button' %>
+</header>
+<ul class="post-list">
+  <% @posts.each do |post| %>
+    <li>
+      <h2><%= link_to post.title, post %></h2>
+      <p><%= post.body.truncate(100) %></p>
+      <%= link_to 'Edit', edit_post_path(post), class: 'button' %>
+    </li>
+  <% end %>
+</ul>
