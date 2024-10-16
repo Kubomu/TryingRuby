@@ -28,3 +28,27 @@ Follow these steps to set up the application locally:
    ```bash
    git clone https://github.com/Kubomu/TryingRuby.git
    cd simple_blog
+2. **Install Dependencies**:
+   ```bash
+   bundle install
+3. **Set up the database**:
+   ```bash
+   rails db:create
+   rails db:migrate
+
+4. **Start the server**:
+   ```bash
+   rails server
+
+Open your browser and go to hhtp://localhost:3000 to see your application in action
+
+5. **Contributing**:
+   Its incomplete..... css and other functionalities.
+
+   If you'd like to contribute to this project, please fork the repository and create a pull request. Ensure that your code follows the existing style and includes appropriate tests.
+   
+
+
+   
+   
+   
